@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>林新玮的简历</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_974371_cqiyab42oyq.css">
+    <style media="print">
+      body{
+          margin: 0;
+      }
+      .yincang{
+          display: none;
+      }
+      .sort-1{
+
+      }
+      .sort-2{
+
+      }
+      /*.page2{*/
+      /*    page-break-before: always;*/
+      /*    margin-top: 50px;*/
+      /*}*/
+    </style>
+    <style>
+        /*css reset*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ul {
+            margin-left: 1em;
+        }
+        li {
+            margin-top: 10px;
+        }
+
+        /*layout*/
+        body {
+            display: grid;
+            grid: auto auto / 1fr 300px 700px 1fr;
+        }
+        header {
+            background: lightgreen;
+            grid-column: 1 / span 4;
+            grid-row: 1;
+        }
+        main {
+            grid-column: 3;
+            grid-row: 2;
+        }
+        aside {
+
+            grid-column: 2;
+            grid-row: 2;
+        }
+        @media (max-width: 1000px) {
+            body {
+                grid: 100px 400px / 1fr 200px 400px 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                grid: auto auto auto / 1fr;
+                padding: 0 10px 30px 10px;
+            }
+            header {
+                grid-column: 1;
+                grid-row: 1;
+            }
+            main {
+                grid-column: 1;
+                grid-row: 2;
+            }
+            aside {
+                grid-column: 1;
+                grid-row: 3;
+            }
+        }
+
+        /*common*/
+        body {
+            font: 14px/1.5 Arial;
+            color: #333;
+            padding-bottom: 30px;
+        }
+
+        /*page*/
+        header {
+            text-align: center;
+            padding: 30px;
+            background: #444;
+            color: #fff;
+        }
+        header img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        header figcaption {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        header figure p {
+            margin-top: 10px;
+            color: #ccc;
+        }
+
+        a {
+            color: #999;
+            text-decoration: none;
+            border-bottom: 1px solid;
+        }
+
+        section {
+            display: grid;
+            grid: auto auto / 50px 120px 1fr;
+            align-items: center;
+            margin-top: 20px;
+            padding: 10px;
+        }
+        section > .iconfont {
+            grid-row: 1;
+            grid-column: 1;
+            display: block;
+            width: 30px;
+            height: 30px;
+            background: #66a9a3;
+            border-radius: 50%;
+            font-size: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        section > h2 {
+            grid-row: 1;
+            grid-column: 2;
+            font-size: 18px;
+        }
+        section > hr {
+            grid-row: 1;
+            grid-column: 3;
+            border: none;
+            height: 3px;
+            background: #66a9a3;
+        }
+        section >.detail {
+            grid-row: 2;
+            grid-column: 2/span 2
+        }
+        section .icon-list {
+            display: flex;
+            align-items: center;
+        }
+        section .icon-list .iconfont {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        section .skill-bar dt {
+            margin-top: 16px;
+        }
+        section .skill-bar dd {
+            height: 3px;
+            background: #eaeaea;
+        }
+        section .skill-bar dd div {
+            height: 100%;
+            background: #66a9a3;
+            margin-top: 10px;
+        }
+        section .timeline-panel {
+            display: grid;
+            grid: auto auto / 120px 1fr auto;
+            align-items: center;
+            margin-top: 16px;
+        }
+        section .timeline-panel .date {
+            grid-row: 1;
+            grid-column: 1;
+        }
+        section .timeline-panel > h3 {
+            grid-row: 1;
+            grid-column: 2;
+        }
+        section .timeline-panel .intro {
+            grid-row: 1;
+            grid-column: 3;
+            color: #666;
+        }
+        section .timeline-panel .detail {
+            grid-row: 2;
+            grid-column: 2/span 2;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <figure>
+        <img src="linxinwei.ab6b57af.jpg" alt="头像">
+        <figcaption>林新玮</figcaption>
+        <p>应聘前端工程师</p>
+    </figure>
+</header>
+<main>
+    <section>
+        <span class="iconfont icon-education"></span>
+        <h2>教育经历</h2>
+        <hr>
+        <div class="detail">
+            <div class="timeline-panel">
+                <div class="date"></div>
+                <h3>华中科技大学武昌分校</h3>
+                <p class="intro">计算机科学与技术</p>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <span class="iconfont icon-experience"></span>
+        <h2>工作经历</h2>
+        <hr>
+        <div class="detail">
+            <div class="timeline-panel">
+                <div class="date">2020/3~2021/9</div>
+                <h3>普汇创新(武汉)科技股份有限公司</h3>
+                <p class="intro">业务主管</p>
+
+                <div class="detail">
+                    <ul>
+                        <li>客户接待</li>
+                        <li>工作订单的处理</li>
+                        <li>上级交办的其他业务</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <span class="iconfont icon-project"></span>
+        <h2>项目</h2>
+        <hr>
+        <div class="detail">
+            <div class="timeline-panel">
+                <div class="date"></div>
+                <h3>简木UI</h3>
+                <span>
+              <a href="https://gitee.com/lesway/gulu-demo">源码链接</a>
+              <a href="http://lesway.gitee.io/gulu-demo/">项目预览</a>
+            </span>
+                <div class="detail">
+                    <ul>
+                        <li>
+                            该项目是参照 Framework7、Ant Design、ElementUI 等UI库思路，做的一套基于Vue的简易UI组件库,目前已支持
+                            按钮、输入框、网格、布局、Toast、Tabs、Popover等UI组件。
+
+                        </li>
+                        <li>每个组件均经历从 <strong>需求分析</strong> 到 <strong>Mocha单元测试</strong> ,并用 <strong>TravisCI实现持续集成</strong> ,
+                            最终以VuePress为基础 <strong>制作官方文档</strong> ,发布于npmjs.org。
+                        </li>
+                        <li>
+                            完成该项目使我对Vue的常用特征更加熟悉，同时提升了自己
+                            对 <strong>前端工程化流程以及单元测试重要性的深刻理解</strong> ,近一步了解开源文化。
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-panel">
+                <div class="date"></div>
+                <h3>极简记账</h3>
+                <span>
+              <a href="https://gitee.com/lesway/money-1-website">源码链接</a>
+              <a href="http://lesway.gitee.io/money-1-website/#/money">项目预览</a>
+            </span>
+                <div class="detail">
+                    <ul>
+                        <li>
+                            简木记账是一款极简的记账产品，也是一款基于 <strong>Vue</strong> 、 <strong>TypeScript</strong> 、 Vuex 、Vue Router实现的单页面应用。
+                        </li>
+
+                        <li>
+                            实现功能:包含 <strong>明细、记账、图标</strong> 等页面，实现了记账、标签管理、数据统计等功能。
+                        </li>
+                        <li>
+                            项目使用以VueCLI为基础创建项目模板，使用Less做CSS预处理，通过Vue Router 实现 <strong>路由的跳转</strong> ，通过vuex实现 <strong>状态管理 </strong>
+                            ,用 <strong>Axios获取数据</strong> ,并对接口进行了封装。
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-panel">
+                <div class="date"></div>
+                <h3>导航网站</h3>
+                <span>
+              <a href="https://gitee.com/lesway/nav-1">源码链接</a>
+              <a href="http://lesway.gitee.io/nav-1/dist/index.html">项目预览</a>
+            </span>
+                <div class="detail">
+                    <ul>
+                        <li>
+                            是一款基于 <strong>原生JS</strong> 实现的的PC、移动端导航页面应用。
+                        </li>
+                        <li>
+                            实现了默认网站、搜索功能、添加网址功能
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="page2">
+        <span class="iconfont icon-project"></span>
+        <h2>开源项目</h2>
+        <hr>
+        <div class="detail">
+            <div class="timeline-panel">
+                <div class="date"></div>
+                <h3>绘画板</h3>
+                <span>
+              <a href="https://gitee.com/lesway/DrawingBoard">源码链接</a>
+              <a href="http://lesway.gitee.io/drawingboard/dist/index.html">项目预览</a>
+            </span>
+                <div class="detail">
+                    <ul>
+                        <li>使用原生JS开发的,主要利用HTML5的 <strong>Canvas API</strong> ，是我在学习原生JS及Canvas过程中开发的小工具。
+                            其提供在 <strong>PC及手机端</strong> 在线画画，实现了切换画笔颜色、调整笔刷粗细、清空画布、橡皮擦、撤销操作、保存成图片等功能。</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-panel">
+                <div class="date"></div>
+                <h3>Doraemon</h3>
+                <span>
+              <a href="https://gitee.com/lesway/Doraemon">源码链接</a>
+              <a href="https://lesway.gitee.io/doraemon/dist/index.html">项目预览</a>
+            </span>
+                <div class="detail">
+                    <ul>
+                        <li>是一个使用 <strong>原生JS</strong> 开发的,动态CSS画一个哆啦A梦过程的小作品。
+                        该作品主要思路是通过 <strong>间隔计时遍历预先设置在preview标签内代码</strong> ,将
+                            其一个个显示在页面上,并在style标签上做同样处理，以使代码CSS生效。此外,实现了CSS高亮效果及调速功能。
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+<aside>
+    <section>
+        <span class="iconfont icon-personal"></span>
+        <h2>基本信息</h2>
+        <hr>
+        <div class="detail">
+            <div class="icon-list"><span class="iconfont icon-phone"></span>13976814579</div>
+            <div class="icon-list"><span class="iconfont icon-wechat"></span>xinwei535137</div>
+            <div class="icon-list"><span class="iconfont icon-email"></span>948840255@qq.com</div>
+            <div class="icon-list"><span class="iconfont icon-education"></span>本科</div>
+
+
+
+
+        </div>
+    </section>
+    <section>
+        <span class="iconfont icon-introduction"></span>
+        <h2>掌握技能</h2>
+        <hr>
+        <div class="detail">
+            <ul>
+                <li>熟悉页面制作技巧，能够编写具有 <strong>语义化</strong> 的页面具有像素级还原设计稿能力</li>
+                <li>熟悉 <strong>前后端分离</strong> 技术，包括 AJAX、跨域、前端路由、Cookie 等</li>
+                <li>熟练掌握 <strong>Vue全家桶</strong> 的使用，包括 VueCli、VueRouter、Vuex 等</li>
+                <li>熟悉源生 <strong>JavaScript</strong> 操作DOM，能够使用原生代码开发页面功能</li>
+                <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
+                <li>了解 <strong>TypeScript</strong> 和 了解 <strong>Webpack 的配置和优化</strong>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="yincang">
+        <span class="iconfont icon-skills"></span>
+        <h2>技能图谱</h2>
+        <hr>
+        <div class="detail">
+            <dl class="skill-bar">
+                <dt>JavaScript</dt>
+                <dd><div style="width:55%"></div></dd>
+                <dt>CSS3</dt>
+                <dd><div style="width:70%"></div></dd>
+                <dt>html</dt>
+                <dd><div style="width:88%"></div></dd>
+                <dt>Vue</dt>
+                <dd><div style="width:80%"></div></dd>
+            </dl>
+        </div>
+    </section>
+    <section>
+        <span class="iconfont icon-introduction"></span>
+        <h2>其他链接</h2>
+        <hr>
+        <div class="detail">
+            <ul>
+                <li><a href="https://www.zhihu.com/people/wayy-80">我的博客</a>，目前已有 90 篇技术文章</li>
+                <li><a href="https://github.com/Lin-xw">我的 GitHub</a>，过去三个月有 200 次提交</li>
+            </ul>
+        </div>
+    </section>
+</aside>
+</body>
+</html>
